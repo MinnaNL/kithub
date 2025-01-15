@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 5010;
 
 // Steg 3. Få tag i express applikationen...
 const app = express();
+//jnoewjdowk
 
 // Enable CORS
 app.use(cors());
