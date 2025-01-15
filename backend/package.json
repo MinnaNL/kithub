@@ -1,13 +1,10 @@
 {
-  "name": "backend",
+  "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "server.mjs",
   "scripts": {
     "start": "node server.mjs",
-    "dev": "nodemon server.mjs",
-    "json-server": "json-server --watch src/data/db.json --port 5001"
-
+    "dev": "nodemon server.mjs"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +16,6 @@
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.3",
-    "nodemon": "^3.1.9"
+    "nodemon": "^2.0.15"
   }
 }

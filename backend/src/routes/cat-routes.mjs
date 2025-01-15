@@ -1,5 +1,5 @@
 import express from 'express';
-import { getCats, getCatById } from '../controllers/catController.mjs';
+import { getCats, getCatById } from '../controllers/cat-controller.mjs';
 
 const router = express.Router();
 

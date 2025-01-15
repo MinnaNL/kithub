@@ -16,7 +16,7 @@
 
 body{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,9 +68,11 @@ button {
     background: #530ad0;
     color: #fff;
     cursor: pointer;
+    transition: all 0.3s ease-in-out; ;
 }
 button:hover{
-    background: #6823df
+    background: #6823df;
+    transition: all 0.3s ease-in-out; ;
 }
 
 p{
