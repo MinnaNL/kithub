@@ -1,13 +1,18 @@
-import React from 'react';
-import CatList from '../components/CatList';
+import React from "react";
+import CatList from "../components/CatList";
+import Header from "../components/GeneralUI/Header";
+import Footer from "../components/GeneralUI/Footer";
 
 const HomePage: React.FC = () => {
-    return (
-        <div>
-            <h1>Welcome to the Cat Adoption Service</h1>
-            <CatList />
-        </div>
-    );
+  return (
+    <div>
+      <Header />
+      <h1>Welcome to KitHub</h1>
+      <CatList />
+
+      <Footer />
+    </div>
+  );
 };
 
 export default HomePage;

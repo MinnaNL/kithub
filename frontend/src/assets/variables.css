@@ -1,0 +1,35 @@
+:root {
+    --font-body: 'Open Sans', serif;
+    --font-display: 'Montserrat', serif;
+
+    --color-info: #2e4bab;
+    --color-success: #177a58;
+    --color-danger: #ca3741;
+    --color-warning: #ff893a;
+
+    --color-cool-purple-50: #ede7f6;
+    --color-cool-purple-300: #b39ddb;
+    --color-cool-purple-500: #7e57c2;
+    --color-cool-purple-700: #5e35b1;
+    --color-cool-purple-900: #4527a0;
+}
+
+[data-theme='dark'] {
+    --color-text: #fff;
+    --color-text-dim: #dadada;
+    --color-text-vague: #b3b3b3;
+    --color-background: #121212;
+    --color-background-dim: #414141;
+    --color-background-vague: #242424;
+    --color-border: rgb(255 255 255 / 30%);
+}
+
+[data-theme='light'] {
+    --color-text: #000;
+    --color-text-dim: #2c2c2c;
+    --color-text-vague: #757575;
+    --color-background: #fff;
+    --color-background-dim: #f2f2f2;
+    --color-background-vague: #cecece;
+    --color-border: #e3e3e3;
+}
