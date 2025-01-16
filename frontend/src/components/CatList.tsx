@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../components/GeneralUI/Header';
 import Footer from '../components/GeneralUI/Footer';
+import CatCard from './CatCard/CatCard';
 import { CatModel } from '../models/CatModel';
 import { Link } from 'react-router-dom';
 
@@ -39,11 +40,7 @@ const CatList: React.FC = () => {
                 {cats.map(cat => (
                     <li key={cat.id}>
                         <Link to={`/cats/${cat.id}`}>
-                            <img src={cat.image} alt={cat.name} style={{ maxWidth: '200px', height: 'auto' }} />
-                            <h2>{cat.name}</h2>
-                            <p>Age: {cat.age}</p>
-                            <p>Gender: {cat.gender}</p>
-                            <p>Price: {cat.price}kr</p>
+                            <CatCard cat={cat} />
                         </Link>
                     </li>
                 ))}
