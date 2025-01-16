@@ -6,21 +6,37 @@
     border-bottom: #fff 1px solid
 }
 
-.logo {
+.logoLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#6b0fff;
+    font-weight: 900;
+}
+
+.logoLink h1 {
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
 
-.logo h1 {
-    margin-left: 10px;
+.icon{
+
+    padding:20px;
 }
 
-a {
-    color:#6b0fff;
-    text-decoration: none;
-    font-weight: 900;
+.logoLink:visited {
+    color: #6b0fff; /* Ensure the visited link color is the same */
+}
+.logoLink:hover {
+    color:#fff;
 }
 
 a:hover {
     text-decoration: underline;
+    color:#fff;
+}
+
+a::after, a::before {
+    color:#6b0fff;
 }

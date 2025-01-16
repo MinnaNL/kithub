@@ -8,12 +8,13 @@ const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-                <h1>Kithub</h1>
+                <Link to="/cats" className={styles.logoLink}>
+                <h1>
+                        <FontAwesomeIcon icon={faGithub} size="2x" className={styles.icon} />
+                        Kithub
+                    </h1>
+                </Link>
             </div>
-            <nav>
-                <Link to="/cats">Cat List</Link>
-            </nav>
         </header>
     );
 };
